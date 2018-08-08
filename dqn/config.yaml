@@ -1,0 +1,16 @@
+random_seed: 1234
+game_length: 300
+
+minibatch_size: 32
+gamma: 0.85
+learning_rate: 0.0005
+
+epsilon: 0.05
+final_epsilon: 0.05
+epsilon_decaying_frames: 1
+
+update_freq: 100
+max_iterations: 100000000
+replay_min_size: 1000
+replay_max_size: 10000
+num_units: 250
